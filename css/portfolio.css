@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600;700;800&family=Noto+Sans:ital,wght@0,700;1,400;1,700&family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a7a7a7;
+    font-family: 'Poppins', sans-serif;
+}
+nav >div{
+    margin:0px 15px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: springgreen;
+    height: 70px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.top-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 20px;
+    background-color: #ececec;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.heading{
+    margin: 10px;
+    width: 50%;
+}
+
+.heading h1{
+    color: rgb(199, 0, 57);
+    font-size:35px;
+}
+.heading p{
+    text-align: justify;
+    font-size: 15px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: none;
+    border-radius:5px;
+    background-color:#CD6155;
+}
+
+.btn:hover{
+    color: blanchedalmond;
+    background-color: crimson;
+}
+
+.dev-img{
+    width: 50%;
+}
+.dev-img img{
+    height: 350px;
+    width: 300px;
+}
